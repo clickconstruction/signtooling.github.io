@@ -3,95 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Click Contract Portal</title>
+    <title>How signing works — SignTooling</title>
+    <meta name="description" content="How signing a Click Plumbing and Electrical document works on SignTooling.">
     <link rel="icon" href="favicon.ico" sizes="32x32">
     <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-180.png">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#"><span style="color: #FF7800; font-weight: bold; text-decoration: underline;">Click</span> Contract Portal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contracts.html">Contracts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="container">
+        <header class="site-header">
+            <a class="site-brand" href="index.html">
+                <img class="site-mark" src="icons/favicon.svg" alt="" width="40" height="40">
+                <span class="site-title"><span class="site-name">SignTooling</span><span class="site-tag">Documents to sign · Click Plumbing and Electrical</span></span>
+            </a>
+            <nav class="site-nav" aria-label="Pages">
+                <a class="site-pill" href="index.html">Documents</a>
+                <a class="site-pill is-current" aria-current="page" href="about.html">How signing works</a>
+            </nav>
+        </header>
+        <section class="hero">
+            <h1>How signing works</h1>
+        </section>
 
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <h1 class="mb-4">About This Project</h1>
-                
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2>What is a contract portal?</h2>
-                        <p>A contract portal is a centralized digital platform that streamlines the entire contract lifecycle. <span style="color: #FF7800; font-weight: bold; text-decoration: underline;">Click Construction</span> has developed an innovative solution that coordinates contract delivery across large teams, providing secure document signing, efficient processing, and comprehensive management tools. Our platform enables you to create, distribute, sign, and track contracts from any device with an easy-to-use, mobile-optimized interface.</p>
-                        
-                        <h3 class="mt-4">Key Features</h3>
-                        <ul>
-                            <li>PDF form fields builder (WYSIWYG)</li>
-                            <li>12 field types available (Signature, Date, File, Checkbox, etc.)</li>
-                            <li>Multiple submitters per document</li>
-                            <li>Automated emails via SMTP</li>
-                            <li>Automatic PDF eSignature</li>
-                            <li>PDF signature verification</li>
-                            <li>Mobile-optimized interface</li>
-                            <li>API and Webhooks for integrations</li>
-                        </ul>
-                    </div>
-                </div>
-                
+        <section class="prose">
+            <ol>
+                <li><strong>Pick the document</strong> on the <a href="index.html">Documents</a> page and press <em>Sign</em>. The signing form opens in a new tab.</li>
+                <li><strong>Fill in your details and sign</strong> — with your finger on a phone, or a mouse. The form tells you which fields are required.</li>
+                <li><strong>Get your copy.</strong> When you finish, a signed copy is emailed to you.</li>
+            </ol>
+            <h2>What this site is</h2>
+            <p>SignTooling is a short list of the documents Click Plumbing and Electrical asks people to sign, so nobody has to hunt for the right link. The signing itself — the form, the signature, the signed PDF — runs on <a href="https://www.docuseal.com/" target="_blank" rel="noopener noreferrer">DocuSeal</a>, an e-signature service. This site stores nothing and asks for no login.</p>
+            <h2>Before you sign</h2>
+            <p>Read the document. If anything in it is unclear, or you are not sure it is the right one for you, call the office first.</p>
+        </section>
 
-                <div class="card">
-                    <div class="card-body">
-                        <h2>Implementation Details</h2>
-                        <p>The <span style="color: #FF7800; font-weight: bold; text-decoration: underline;">Click</span> Contract Portal provides a streamlined contract management experience. Our implementation includes:</p>
-                        
-                        <ol>
-                            <li>Secure document signing and verification</li>
-                            <li>Custom contract templates for various business needs</li>
-                            <li>Team coordination tools for managing contract workflows</li>
-                            <li>Automated notifications and status tracking</li>
-                        </ol>
-                        
-                        <div class="alert alert-info mt-3">
-                            <h4 class="alert-heading">Get Started Today</h4>
-                            <p>Ready to streamline your contract management process?</p>
-                            <ul class="mb-0">
-                                <li>Contact our team for a personalized demo</li>
-                                <li>Explore our contract templates</li>
-                                <li>Learn how our solution can save your team time and reduce errors</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <footer class="site-foot">Signing runs on DocuSeal, an e-signature service. Questions about a document? Call the office before you sign.</footer>
     </div>
-
-    <footer class="bg-light py-4 mt-5">
-        <div class="container text-center">
-            <p>© 2025 <span style="color: #FF7800; font-weight: bold; text-decoration: underline;">Click</span> Contract Portal. Powered by <span style="color: #FF7800; font-weight: bold; text-decoration: underline;">Click</span> Construction.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
 </html>
